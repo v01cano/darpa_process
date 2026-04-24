@@ -330,7 +330,25 @@ python extract_fivedirections_e3_postgres.py \
     --db_name fivedirections_e3
 ```
 
-## 十三、下游使用
+## 十三、已知坑 / 注意事项
+
+### 1. UUID 大小写不统一（重要）
+
+FiveDirections E3 原始 CDM 数据中 UUID **大小写混合**（大部分为大写，例如 `E20F7C55-319D-4AF5-BC62-11317B9DEC3C`，也有小写），提取脚本 `extract_fivedirections_e3.py` 按原样存入 `uuid2name.pkl`、`cmdlines.pkl` (thread_to_process)、`edges_part_*.pkl`，**没有做大小写归一化**。
+
+**影响：**
+- 下游代码在用外部 UUID（例如 pidsmaker ground truth CSV）去查 `uuid2name` / `thread_to_process` / 边里的 `src_uuid` / `dst_uuid` 时，如果两边大小写不一致，Python `dict` 查找是大小写敏感的，会导致 0% 命中
+- 曾经在 `verify_ground_truth.py` 上踩过这个坑：GT CSV UUID 被 `.lower()`，但 pkl 里存的是原始大小写，结果 120 个 GT UUID 全部匹配失败
+
+**规避方式（下游侧）：**
+- 加载 pkl 后立刻把 `uuid2name` / `thread_to_process` 的 key（和 value，如 thread_map 的父进程 UUID）统一 `.lower()`
+- 比较 edge 里的 uuid 字段时也先 `.lower()` 再查
+- 外部输入的 UUID（GT CSV、查询参数等）也一律 `.lower()`
+- 参见 `verify_ground_truth.py` 中 `load_uuid2name()` / `load_thread_map()` / `collect_attack_edges()` 的写法
+
+其他四个数据集（CADETS/THEIA/ClearScope/TRACE）的原始 CDM UUID 大体是小写一致的，这是 FiveDirections 独有的问题。
+
+## 十四、下游使用
 
 ```python
 from extract_fivedirections_e3 import load_all_edges, iter_edges
