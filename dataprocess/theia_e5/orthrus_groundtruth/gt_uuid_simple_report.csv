@@ -1,0 +1,71 @@
+attack,gt_uuid,status,gt_type,gt_name,our_type,our_name,our_cmdline,type_match
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,b51ca62d-a770-574b-acee-5b34b7ec46f2,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,5faec575-d42b-57c9-b222-800d68daaa74,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,54e97188-0a55-5521-99cd-e44a09c26d62,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,2112d882-f8c1-5228-a224-8448d17e1284,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,b45850b8-0c0c-516a-9426-6155103b5658,direct,process,/usr/sbin/sshd sshd: admin@pts/3   ,process,/usr/sbin/sshd,sshd: admin@pts/3   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,84053d48-9767-59ae-a797-bac5e4ed3368,direct,process,/usr/sbin/sshd ,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,6ccfb5a3-9cb2-5689-ba97-7776fbb241f0,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,49eff3e1-5fd4-50ff-8c22-b12e8c7a72dd,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,80370c6e-1600-8037-0ca7-67e600000000,direct,netflow,128.55.12.110:22->128.55.12.167:58983,netflow,128.55.12.110:22->128.55.12.167:58983,,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,ea1a155c-e196-5fda-9f66-a7566988d863,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,0100d00f-3437-3c00-0000-00004b61dc5c,direct,file,/var/log/sshdlog,file,/var/log/sshdlog,,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,80370c6e-1600-8037-0ca7-68e600000000,direct,netflow,128.55.12.110:22->128.55.12.167:58984,netflow,128.55.12.110:22->128.55.12.167:58984,,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,12000000-9652-ca02-0000-000000000000,direct,file,/run/shm/lc,file,/run/shm/lc,,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,d5e6af81-29c2-557c-873c-810e7965ccbe,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,80370c6e-1600-8037-0ca7-69e600000000,direct,netflow,128.55.12.110:22->128.55.12.167:58985,netflow,128.55.12.110:22->128.55.12.167:58985,,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,a2555c30-f77b-5252-9086-960b8b744820,direct,process,/usr/sbin/sshd sshd: admin@pts/3   ,process,/usr/sbin/sshd,sshd: admin@pts/3   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,8e6ab6b3-c0e9-5ac4-a429-d8c44269e538,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,16945bf4-3873-54e6-b177-fe882b4f3c21,direct,process,/usr/sbin/sshd sshd: admin@pts/3   ,process,/usr/sbin/sshd,sshd: admin@pts/3   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,6b00c251-e650-5d1a-afa5-a577cf1a7496,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,7cc8e4bf-965c-5c41-82f0-76f2841ca2d4,direct,process,/usr/sbin/sshd sshd: admin@pts/3   ,process,/usr/sbin/sshd,sshd: admin@pts/3   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,fb9da469-6b27-5945-a305-5611a6d5d175,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,c3830cee-97e3-560b-bfdb-c2b129094c55,direct,process,/usr/sbin/sshd sshd: admin@notty   ,process,/usr/sbin/sshd,sshd: admin@notty   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,938e2472-6080-596c-b5e6-77136ad01a40,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,ce5ccb85-9fa4-57e8-8beb-35e76c4c6889,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,8235e527-1c02-5824-b7ac-3bed86c3fc23,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,7d2f83ed-6df2-5c07-a425-cd08b63b9f82,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,1c63b3c8-e66d-5060-b097-cc658a2d7c91,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,1fcc1d14-89fe-5e43-bf80-0c13580c9e61,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,d3c62334-1496-52a9-971d-130c53593edf,direct,process,/usr/sbin/sshd sshd: admin@notty   ,process,/usr/sbin/sshd,sshd: admin@notty   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,00000000-0000-0000-0000-000000000000,direct,process,swapper/0 ,process,/sbin/init,,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,14f36d96-c877-5889-a809-819319d358d7,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,86267d07-b3fb-57d3-9667-4d9ee753dc83,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,adf705f9-3e99-5e54-9362-1c316a68775f,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,3e6b1b04-0702-501c-b18a-206709055d2a,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,d6c68b07-5843-5cc6-9fd0-aba3150d6c30,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,1cd6069d-ab77-5dc8-8fbd-b4024ccc2aaa,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,7c836d91-7f41-562e-9f5e-cc6e613d0c5b,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,1e66435f-090c-5b26-81d2-dcdc3e064fe8,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,bd173ac3-940d-5057-bb51-3a0b825cf17b,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,0c3b0e5f-d50b-5195-9952-b0eae954af33,direct,process,/usr/sbin/sshd sshd: admin@notty   ,process,/usr/sbin/sshd,sshd: admin@notty   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,fb39b4e5-3279-5ffd-8f6e-39f4786da309,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,e66a51de-bea0-54b1-ae8d-78c2f73c2870,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,420a2120-fb2b-57c3-a185-160482a8871c,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,fe183354-e393-5ada-83b2-8bd28a3a1a56,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,77315121-57d8-57ac-8b74-1e2d106e6dc0,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,8d12627c-42a6-50c9-b4de-a3ed440e33bd,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,4f1bddc7-e2ca-514d-965f-140a4d45e3c0,direct,process,/usr/sbin/sshd sshd: admin@pts/3   ,process,/usr/sbin/sshd,sshd: admin@pts/3   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,42ffda9b-da03-5fe6-b229-f91fb096d907,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,299666b9-5f8a-579d-9868-443e19d5ed4e,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,e71415c9-824f-57e8-8cd8-e2dd1bf5f1c2,direct,process,/usr/sbin/sshd sshd: admin@notty   ,process,/usr/sbin/sshd,sshd: admin@notty   ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,f3ab14a3-4cc1-54f3-befb-092e67be33cc,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,599b082d-a4de-5153-b9a1-005dd53458ed,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,960167a3-320d-5d01-a5d7-6bedb9ba2f37,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,118d7087-a326-557d-9ab8-7215ffd91390,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,4bd068fa-4ac9-5c4b-84a5-4b03cd4048de,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,2c4719f7-5af8-5099-a89d-e67ca90f18b6,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,eb29d902-6c8b-556c-ad67-e6d459d673a4,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,cdd9894a-2ee3-5167-9191-8ff33da9822f,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,fbdde7b6-24ee-50eb-a34b-2588a0db4ede,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,db0e28ad-412d-5edb-9090-a60ca954927a,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,d7d38965-3632-51d5-acc2-c014598a1b02,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,7f25c02a-1173-5ffa-a53f-cfd6dfa25460,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,16078c68-57fd-506d-92e9-29035a8c800c,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,f3470b6e-32f1-55cd-bdbb-29271d1a1337,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,4b0f1e8b-633b-55e5-9ce6-3c3013bcfc97,direct,process,/usr/local/lib/firefox-54.0.1/firefox firefox,process,/usr/local/lib/firefox-54.0.1/firefox,firefox,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,a05be6d6-98de-5cf2-86c3-aff61eae57a3,direct,process,/usr/sbin/sshd /usr/sbin/sshd -D,process,/usr/sbin/sshd,/usr/sbin/sshd -D,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,600330d2-9a49-5220-bd13-17b21a236f18,direct,process,/usr/sbin/sshd sshd: [accepted]    ,process,/usr/sbin/sshd,sshd: [accepted]    ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,6dc79251-b698-5824-a030-9bfb327fc685,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,77a5f47e-9f41-5f79-81f2-1d603bee02cb,direct,process,/usr/sbin/sshd sshd: admin [priv]  ,process,/usr/sbin/sshd,sshd: admin [priv]  ,1
+THEIA_1_Firefox_Drakon_APT_BinFmt_Elevate_Inject,80370c6e-859f-d0cb-142a-500000000000,direct,netflow,128.55.12.110:40837->208.203.20.42:80,netflow,128.55.12.110:40837->208.203.20.42:80,,1

@@ -14,8 +14,8 @@ import os
 import glob
 from collections import defaultdict, Counter
 
-EXTRACTED_DIR = "/mnt/disk/darpa/cadets_e5_output"
-GT_DIR = "/home/cch/CAPTAIN/CAPTAIN-main/cch_repeat/dataprocess/cadets_e5/pidsmaker_groundtruth"
+EXTRACTED_DIR = "/hy-tmp/cadets_e5_bin/middle"
+GT_DIR = "/hy-tmp/analyse/cadets_e5/orthrus_groundtruth"
 
 
 def load_uuid2name():

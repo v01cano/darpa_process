@@ -1,6 +1,4 @@
-"""
-THEIA E5 Ground Truth 验证 — 简化版（不扫边分片，秒级完成）。
-"""
+"""TRACE E5 GT 验证 — 简化版（不扫边分片）。"""
 
 import pickle
 import csv
@@ -8,18 +6,15 @@ import ast
 import os
 from collections import Counter
 
-EXTRACTED_DIR = "/hy-tmp/theia_e5_middle"
-GT_DIR = "/hy-tmp/analyse/theia_e5/orthrus_groundtruth"
+EXTRACTED_DIR = "/mnt/disk1/darpa_e5/trace/trace_middle"
+GT_DIR = "/home/cch/CAPTAIN/CAPTAIN-main/cch_repeat/dataprocess/trace_e5/orthrus_groundtruth"
 OUT_CSV = os.path.join(GT_DIR, 'gt_uuid_simple_report.csv')
 
 
 def load_u2n():
-    print("加载 uuid2name.pkl ...")
     with open(os.path.join(EXTRACTED_DIR, 'uuid2name.pkl'), 'rb') as f:
         u2n = pickle.load(f)
-    u2n = {str(k).lower(): v for k, v in u2n.items()}
-    print(f"  uuid2name: {len(u2n):,}")
-    return u2n
+    return {str(k).lower(): v for k, v in u2n.items()}
 
 
 def load_cmdline():
@@ -33,7 +28,6 @@ def load_cmdline():
 
 def load_gt():
     if not os.path.isdir(GT_DIR):
-        print(f"[INFO] GT 目录不存在: {GT_DIR}")
         return {}
     gt = {}
     for fname in sorted(os.listdir(GT_DIR)):
@@ -59,53 +53,46 @@ def load_gt():
                 else:
                     nodes[uuid] = ('unknown', str(attrs))
         gt[attack] = nodes
-        print(f"  {fname}: {len(nodes)}")
     return gt
 
 
 def main():
+    print("加载 ...")
     u2n = load_u2n()
     u_cmd = load_cmdline()
+    print(f"  uuid2name: {len(u2n):,}  cmdline: {len(u_cmd):,}")
     gt = load_gt()
     if not gt:
+        print("[INFO] 无 GT")
         return
 
     rows = []
     g_total, g_found = 0, 0
     for attack, gt_nodes in gt.items():
-        print(f"\n{'='*80}\n攻击场景: {attack}\n{'='*80}")
-        print(f"GT 节点数: {len(gt_nodes)}")
-        for t, c in Counter(t for t, _ in gt_nodes.values()).most_common():
-            print(f"  {t}: {c}")
+        print(f"\n{'='*80}\n{attack}\n{'='*80}")
+        print(f"GT: {len(gt_nodes)}")
 
         found, missing = [], []
-        for uuid, (gt_type, gt_name) in gt_nodes.items():
-            if uuid in u2n:
-                our_type, our_name = u2n[uuid]
-                cmd = u_cmd.get(uuid, '') if our_type == 'process' else ''
-                found.append((uuid, gt_type, gt_name, our_type, str(our_name or ''), str(cmd or '')))
+        for u, (gt_type, gt_name) in gt_nodes.items():
+            if u in u2n:
+                our_type, our_name = u2n[u]
+                cmd = u_cmd.get(u, '') if our_type == 'process' else ''
+                found.append((u, gt_type, gt_name, our_type, str(our_name or ''), str(cmd or '')))
             else:
-                missing.append((uuid, gt_type, gt_name))
+                missing.append((u, gt_type, gt_name))
 
         pct = len(found) / len(gt_nodes) * 100 if gt_nodes else 0
-        print(f"\n找到: {len(found)}/{len(gt_nodes)} ({pct:.1f}%)  缺失: {len(missing)}")
+        print(f"找到: {len(found)}/{len(gt_nodes)} ({pct:.1f}%)  缺失: {len(missing)}")
 
         if missing:
-            print(f"\n缺失节点:")
+            print(f"\n缺失:")
             for u, gt_type, gt_name in missing[:20]:
                 print(f"  [{gt_type:8s}] GT={str(gt_name)[:60]:60s} UUID={u}")
-            if len(missing) > 20:
-                print(f"  ... 还有 {len(missing)-20} 个")
 
-        print(f"\n匹配详情:")
-        print(f"  {'类型':<8} {'✓/✗':<6} {'我们=name':<40} {'GT=name':<45} cmdLine")
-        print("  " + "-" * 130)
+        print(f"\n匹配:")
         for u, gt_type, gt_name, our_type, our_name, cmd in found:
             mark = "✓" if our_type == gt_type else "✗类型"
-            our_s = our_name[:38]
-            gt_s = str(gt_name)[:43]
-            cmd_s = cmd[:60]
-            print(f"  [{our_type:<6}] {mark:<6} 我们={our_s:<38} GT={gt_s:<45} {cmd_s}")
+            print(f"  [{our_type:<6}] {mark:<6} 我们={our_name[:40]:40s} GT={str(gt_name)[:50]:50s} {cmd[:50]}")
 
         for u, gt_type, gt_name, our_type, our_name, cmd in found:
             rows.append({
@@ -125,18 +112,13 @@ def main():
         g_total += len(gt_nodes)
         g_found += len(found)
 
-    print(f"\n{'='*80}\n总结\n{'='*80}")
-    pct = g_found / g_total * 100 if g_total else 0
-    print(f"  GT 总节点: {g_total}")
-    print(f"  命中: {g_found} ({pct:.1f}%)")
-    print(f"  缺失: {g_total - g_found}")
-
+    print(f"\n{'='*80}\n总结: {g_found}/{g_total} ({g_found/g_total*100:.1f}%)")
     if rows:
         with open(OUT_CSV, 'w', newline='') as f:
             w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
             w.writeheader()
             w.writerows(rows)
-        print(f"\n详细报告: {OUT_CSV}")
+        print(f"详细报告: {OUT_CSV}")
 
 
 if __name__ == '__main__':

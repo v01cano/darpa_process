@@ -1,0 +1,127 @@
+attack,gt_uuid,status,gt_type,gt_name,our_type,our_name,our_cmdline,type_match
+Nginx_Drakon_APT,dfb6458c-77de-11e9-b129-6c2b597e484c,direct,process,None dd,process,dd,dd if=/dev/random of=eraseme bs=1024 count=1 seek=1048576,1
+Nginx_Drakon_APT,908c1871-9556-355c-9695-1d084c35a52a,direct,file,None,file,/etc/libmap.conf,,1
+Nginx_Drakon_APT,00f33638-7043-11e9-b41b-d4ae52c1dbd3,direct,process,None nginx,process,nginx,,1
+Nginx_Drakon_APT,00f3278e-7043-11e9-b41b-d4ae52c1dbd3,direct,process,None nginx,process,nginx,,1
+Nginx_Drakon_APT,c45124d6-77e1-11e9-b41b-d4ae52c1dbd3,direct,process,None hostname,process,hostname,hostname,1
+Nginx_Drakon_APT,0ce6def9-caa1-795f-a1ca-8b642f79d07d,direct,file,None,file,/var/log/nginx-error.log,,1
+Nginx_Drakon_APT,ced86807-77e2-11e9-a28b-d4ae52c1dbd3,direct,netflow,128.55.12.51:80->128.55.12.167:58356,netflow,128.55.12.51:80->128.55.12.167:58356,,1
+Nginx_Drakon_APT,ced88597-77e2-11e9-a28b-d4ae52c1dbd3,direct,netflow,128.55.12.51:40039->98.23.182.25:80,netflow,128.55.12.51:40039->98.23.182.25:80,,1
+Nginx_Drakon_APT,a6f2f9e7-6ebd-e25b-bd6e-94157be27558,direct,file,None,file,/,,1
+Nginx_Drakon_APT,00f2fdb9-7043-11e9-b41b-d4ae52c1dbd3,direct,process,None nginx,process,nginx,,1
+Nginx_Drakon_APT,e15f7631-77e1-11e9-a28b-d4ae52c1dbd3,direct,process,None hostname,process,hostname,hostname,1
+Nginx_Drakon_APT,7281a09a-77df-11e9-b41b-d4ae52c1dbd3,direct,netflow,128.55.12.75:80->128.55.12.167:55620,netflow,128.55.12.75:80->128.55.12.167:55620,,1
+Nginx_Drakon_APT,edad853a-31d9-ed54-9931-889cc4ed15b6,direct,file,None,file,/dev/tty,,1
+Nginx_Drakon_APT,416ab837-8e42-6d58-828e-6976586d8e68,direct,file,None,file,/dev/random,,1
+Nginx_Drakon_APT,b3be35bb-7042-11e9-a28b-d4ae52c1dbd3,direct,process,None nginx,process,nginx,,1
+Nginx_Drakon_APT,b3bd3a42-7042-11e9-a28b-d4ae52c1dbd3,direct,netflow,128.55.12.51:80->128.55.12.167:58340,netflow,128.55.12.51:80->128.55.12.167:58340,,1
+Nginx_Drakon_APT,9b2bf81d-77df-11e9-b41b-d4ae52c1dbd3,direct,netflow,128.55.12.75:80->128.55.12.167:55622,netflow,128.55.12.75:80->128.55.12.167:55622,,1
+Nginx_Drakon_APT,836c6fa6-77e2-11e9-b41b-d4ae52c1dbd3,direct,process,None hostname,process,hostname,hostname,1
+Nginx_Drakon_APT,8cf8d717-77df-11e9-b41b-d4ae52c1dbd3,direct,process,None sh,process,sh,sh,1
+Nginx_Drakon_APT_17,d80ff8a6-78c1-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,d2c09811-78bd-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,9e25a500-78ae-11e9-b129-6c2b597e484c,direct,process,None sshd,process,sshd,/usr/sbin/sshd -R,1
+Nginx_Drakon_APT_17,8ba69ea3-78d1-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,fe4d887b-78bd-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,ed281817-20f6-7e52-b620-7e7b827e05af,direct,file,None,file,/dev/tty,,1
+Nginx_Drakon_APT_17,cd344664-78d1-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,cb177e33-78d0-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,b3fe3566-78b4-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,719aeb79-78ae-11e9-b129-6c2b597e484c,direct,process,None sshd,process,sshd,/usr/sbin/sshd -R,1
+Nginx_Drakon_APT_17,d6eda8aa-78d8-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,1e2e3c6d-77e5-11e9-a28b-d4ae52c1dbd3,direct,process,None nginx,process,nginx,,1
+Nginx_Drakon_APT_17,b388b6df-7042-11e9-a28b-d4ae52c1dbd3,direct,process,None php-fpm,process,php-fpm,,1
+Nginx_Drakon_APT_17,7f896ab1-78c7-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,a9645399-78c7-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,fb2814cb-78ba-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,7d856fdf-78d4-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,53a80e58-78b1-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,deef2e3a-78c1-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,98a2f9dc-78af-11e9-b41b-d4ae52c1dbd3,direct,netflow,128.55.12.75:80->128.55.12.167:58157,netflow,128.55.12.75:80->128.55.12.167:58157,,1
+Nginx_Drakon_APT_17,98a5b5b4-78af-11e9-b41b-d4ae52c1dbd3,direct,netflow,128.55.12.75:63032->98.23.182.25:80,netflow,128.55.12.75:63032->98.23.182.25:80,,1
+Nginx_Drakon_APT_17,4e4159bf-78cf-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,444edbb8-77e4-11e9-b41b-d4ae52c1dbd3,direct,process,None nginx,process,nginx,,1
+Nginx_Drakon_APT_17,b68c6fd7-78ae-11e9-a28b-d4ae52c1dbd3,direct,netflow,128.55.12.51:36039->98.23.182.25:80,netflow,128.55.12.51:36039->98.23.182.25:80,,1
+Nginx_Drakon_APT_17,569f09b5-78c1-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,7fc54cb7-78da-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,57f3d07b-78ca-11e9-b129-6c2b597e484c,direct,process,None bash,process,bash,-bash,1
+Nginx_Drakon_APT_17,a11713ae-78af-11e9-b129-6c2b597e484c,direct,process,None bash,process,bash,-bash,1
+Nginx_Drakon_APT_17,f722f8fc-78af-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,c0e60490-62be-7b5a-be62-6f2dba7ba087,direct,file,None,file,/dev/tty,,1
+Nginx_Drakon_APT_17,908c1871-9556-355c-9695-1d084c35a52a,direct,file,None,file,/etc/libmap.conf,,1
+Nginx_Drakon_APT_17,00c2ce8c-7043-11e9-b41b-d4ae52c1dbd3,direct,process,None php-fpm,process,php-fpm,,1
+Nginx_Drakon_APT_17,2aee92ed-78d5-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,40766c76-78cc-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,995aeae9-78d4-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,8413a206-78d0-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,62174a6f-78c4-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,e50d9fef-78cc-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,955662ec-78cf-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,8652a2bb-78c3-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,455febe0-78c8-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,39f53f07-78d4-11e9-a28b-d4ae52c1dbd3,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,e61ad2cd-78c8-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,f18841cf-78b8-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,ecf47568-78d0-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,43953230-78cc-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,d6548a13-78d2-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,0c96d82d-78d3-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,b7648bcf-78b2-11e9-a28b-d4ae52c1dbd3,direct,netflow,128.55.12.51:80->128.55.12.167:60890,netflow,128.55.12.51:80->128.55.12.167:60890,,1
+Nginx_Drakon_APT_17,a398df14-78b6-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,04c8ee06-78c2-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,8f140d2c-78b2-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,d8207b63-78d8-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,e8778190-78cd-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,7616a7b7-78ae-11e9-a28b-d4ae52c1dbd3,direct,netflow,128.55.12.51:80->128.55.12.167:60868,netflow,128.55.12.51:80->128.55.12.167:60868,,1
+Nginx_Drakon_APT_17,25c9be8e-78d5-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,8bf2b9cf-78be-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,300a2d44-78d1-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,f457ca1a-78d9-11e9-b129-6c2b597e484c,direct,process,None bash,process,bash,-bash,1
+Nginx_Drakon_APT_17,5825b5a5-78ce-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,fce3afc5-78c0-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,2816e03f-78cf-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,7f1d2aa8-78d9-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,58cdd4a9-78ce-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,03b19524-78c1-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,a0065ddd-78cc-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,a1e007e5-78cc-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,f25642f3-78d7-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,05621957-78af-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,74ff2b35-78b3-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,1d3d60bb-78b0-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,5c24a0a5-78d2-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,04893fbb-78bd-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,d6ecf5a9-78be-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,,1
+Nginx_Drakon_APT_17,d82de488-78be-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,3bdc8bdd-78d3-11e9-a28b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,99f70b39-78d3-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,c40f4135-78d9-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,ce2dfb1a-78ba-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,27df5c2d-78ae-11e9-a28b-d4ae52c1dbd3,direct,process,None atrun,process,atrun,/bin/sh -c /usr/libexec/atrun,1
+Nginx_Drakon_APT_17,d870985e-78ba-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,933716cd-78bd-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,28b1a6f9-c916-3251-96c9-2d1ea1327749,direct,file,/etc/passwd,file,/etc/passwd,,1
+Nginx_Drakon_APT_17,317310dc-78ae-11e9-b41b-d4ae52c1dbd3,direct,process,None sshd,process,sshd,/usr/sbin/sshd -R,1
+Nginx_Drakon_APT_17,d1a8d277-78b4-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,e2cce174-78b5-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,24b39d2f-78cd-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,96072da0-78d1-11e9-a28b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,17d7a080-78ca-11e9-a28b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,d4490425-78d7-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,2075e781-78b9-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,70e3ef54-78ca-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,e5dd578d-78ce-11e9-a28b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,e315791b-78ca-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,87da8b4c-78d8-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,0ca9f5ae-78da-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,d7bcddc2-78bf-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,f2b43a46-78d2-11e9-b129-6c2b597e484c,direct,process,None bash,process,bash,-bash,1
+Nginx_Drakon_APT_17,edad853a-31d9-ed54-9931-889cc4ed15b6,direct,file,None,file,/dev/tty,,1
+Nginx_Drakon_APT_17,384a5f33-78cd-11e9-b41b-d4ae52c1dbd3,direct,process,None cat,process,cat,cat /etc/passwd,1
+Nginx_Drakon_APT_17,ba6f34dd-78af-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,e1754bce-78b8-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,f9830c54-78c6-11e9-b41b-d4ae52c1dbd3,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,668260f8-78bc-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
+Nginx_Drakon_APT_17,7525b473-78d7-11e9-b129-6c2b597e484c,direct,process,None main,process,main,./main,1
+Nginx_Drakon_APT_17,1633500b-d34b-8058-8bd3-abb7d880915e,direct,file,None,file,/dev/null,,1
+Nginx_Drakon_APT_17,87859dc1-78c5-11e9-b129-6c2b597e484c,direct,process,None main,process,main,,1
